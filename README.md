@@ -6,6 +6,9 @@ update_package_cache
 
 Update cache for yum and apt package managers.
 
+<img src="https://img.shields.io/ansible/role/d/42052"/>
+<img src="https://img.shields.io/ansible/quality/42052"/>
+
 Example Playbook
 ----------------
 
@@ -58,6 +61,13 @@ The following roles can be installed to ensure all requirements are met, using `
 
 ```
 
+This role uses the following modules:
+```yaml
+---
+- apt
+- yum
+```
+
 Context
 -------
 
@@ -89,6 +99,9 @@ This role has been tested against the following distributions and Ansible versio
 |ubuntu-rolling|yes|yes|yes*|
 
 A single star means the build may fail, it's marked as an experimental build.
+
+
+
 
 Testing
 -------
