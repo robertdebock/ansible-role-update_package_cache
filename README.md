@@ -2,9 +2,9 @@
 
 Update cache for yum and apt package managers.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-update_package_cache.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-update_package_cache)|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![quality](https://img.shields.io/ansible/quality/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-update_package_cache.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-update_package_cache)|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![quality](https://img.shields.io/ansible/quality/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-update_package_cache.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
