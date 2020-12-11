@@ -2,9 +2,9 @@
 
 Update cache for yum and apt package managers.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-update_package_cache.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-update_package_cache)|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![quality](https://img.shields.io/ansible/quality/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-update_package_cache.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-update_package_cache.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-update_package_cache)|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-update_package_cache/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-update_package_cache)|[![quality](https://img.shields.io/ansible/quality/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-update_package_cache.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -37,10 +37,11 @@ Also see a [full explanation and example](https://robertdebock.nl/how-to-use-the
 
 ## [Requirements](#requirements)
 
-- Access to a repository containing packages, likely on the internet.
-- A recent version of Ansible. (Tests run on the current, previous and next release of Ansible.)
+- pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-update_package_cache/blob/master/requirements.txt).
 
 ## [Status of requirements](#status-of-requirements)
+
+The following roles are used to prepare a system. You may choose to prepare your system in another way, I have tested these roles as well.
 
 | Requirement | Travis | GitHub |
 |-------------|--------|--------|
