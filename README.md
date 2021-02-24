@@ -4,7 +4,7 @@ Update cache for yum and apt package managers.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-update_package_cache/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-update_package_cache)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-update_package_cache.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/releases/)|
+|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-update_package_cache/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-update_package_cache)|[![quality](https://img.shields.io/ansible/quality/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-update_package_cache.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
