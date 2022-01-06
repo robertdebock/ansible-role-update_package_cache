@@ -15,6 +15,7 @@
   community.general.apk:
     update_cache: yes
   when: ansible_pkg_mgr == "apk"
+  tags: molecule-idempotence-notest
 
 - name: update dnf cache
   ansible.builtin.dnf:
