@@ -23,6 +23,7 @@
 
 - name: update zypper cache
   community.general.zypper:
+    name: zypper
     update_cache: yes
   when: ansible_pkg_mgr == "zypper"
 
