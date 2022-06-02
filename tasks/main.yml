@@ -4,6 +4,7 @@
 - name: update apt cache
   ansible.builtin.apt:
     update_cache: yes
+    cache_valid_time: "{{ update_package_cache_cache_valid_time  }}"
   when:
     - ansible_pkg_mgr == "apt"
 
