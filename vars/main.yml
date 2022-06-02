@@ -1,0 +1,4 @@
+---
+# vars file for update_package_cache
+
+update_package_cache_cache_valid_time: 0
