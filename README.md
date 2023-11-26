@@ -1,4 +1,4 @@
-# Ansible role [update_package_cache](#update_package_cache)
+# [Ansible role update_package_cache](#update_package_cache)
 
 Update cache for yum and apt package managers.
 
