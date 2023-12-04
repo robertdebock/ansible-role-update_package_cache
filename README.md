@@ -1,17 +1,18 @@
-# [update_package_cache](#update_package_cache)
+# [Ansible role update_package_cache](#update_package_cache)
 
 Update cache for yum and apt package managers.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-update_package_cache/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-update_package_cache)|[![quality](https://img.shields.io/ansible/quality/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/42052)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-update_package_cache.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-update_package_cache/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-update_package_cache/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-update_package_cache)|[![downloads](https://img.shields.io/ansible/role/d/24618)](https://galaxy.ansible.com/robertdebock/update_package_cache)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-update_package_cache.svg)](https://github.com/robertdebock/ansible-role-update_package_cache/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
-This example is taken from `molecule/default/converge.yml` and is tested on each push, pull request and release.
+This example is taken from [`molecule/default/converge.yml`](https://github.com/robertdebock/ansible-role-update_package_cache/blob/master/molecule/default/converge.yml) and is tested on each push, pull request and release.
+
 ```yaml
 ---
-- name: converge
+- name: Converge
   hosts: all
   become: yes
   gather_facts: yes
@@ -20,10 +21,11 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
     - role: robertdebock.update_package_cache
 ```
 
-The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
+The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/robertdebock/ansible-role-update_package_cache/blob/master/molecule/default/prepare.yml):
+
 ```yaml
 ---
-- name: prepare
+- name: Prepare
   hosts: all
   become: yes
   gather_facts: no
@@ -39,13 +41,13 @@ Also see a [full explanation and example](https://robertdebock.nl/how-to-use-the
 
 - pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-update_package_cache/blob/master/requirements.txt).
 
-## [Status of used roles](#status-of-requirements)
+## [State of used roles](#state-of-used-roles)
 
 The following roles are used to prepare a system. You can prepare your system in another way.
 
 | Requirement | GitHub | GitLab |
 |-------------|--------|--------|
-|[robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-bootstrap/actions)|[![Build Status GitLab ](https://gitlab.com/robertdebock/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-bootstrap)|
+|[robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap)|[![Build Status GitHub](https://github.com/robertdebock/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/robertdebock-iac/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
@@ -60,30 +62,28 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 
 |container|tags|
 |---------|----|
-|alpine|all|
-|amazon|Candidate|
-|el|8|
-|debian|all|
-|fedora|all|
-|opensuse|all|
-|ubuntu|all|
+|[Alpine](https://hub.docker.com/r/robertdebock/alpine)|all|
+|[Amazon](https://hub.docker.com/r/robertdebock/amazonlinux)|Candidate|
+|[EL](https://hub.docker.com/r/robertdebock/enterpriselinux)|8, 9|
+|[Debian](https://hub.docker.com/r/robertdebock/debian)|all|
+|[Fedora](https://hub.docker.com/r/robertdebock/fedora/)|all|
+|[opensuse](https://hub.docker.com/r/robertdebock/opensuse)|all|
+|[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
-The minimum version of Ansible required is 2.10, tests have been done to:
+The minimum version of Ansible required is 2.12, tests have been done to:
 
 - The previous version.
 - The current version.
 - The development version.
 
-
-
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-update_package_cache/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-update_package_cache/issues).
 
 ## [License](#license)
 
-Apache-2.0
+[Apache-2.0](https://github.com/robertdebock/ansible-role-update_package_cache/blob/master/LICENSE).
 
 ## [Author Information](#author-information)
 
-[Robert de Bock](https://robertdebock.nl/)
+[robertdebock](https://robertdebock.nl/)
 
 Please consider [sponsoring me](https://github.com/sponsors/robertdebock).
