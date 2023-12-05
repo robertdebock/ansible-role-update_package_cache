@@ -1,34 +1,6 @@
 ---
 # tasks file for update_package_cache
 
-- name: Update apt cache
-  ansible.builtin.apt:
+- name: update package cache
+  ansible.builtin.package:
     update_cache: yes
-  when: ansible_pkg_mgr == "apt"
-
-- name: Update yum cache
-  ansible.builtin.yum:
-    update_cache: yes
-  when: ansible_pkg_mgr == "yum"
-
-- name: update apk cache
-  community.general.apk:
-    update_cache: yes
-  when: ansible_pkg_mgr == "apk"
-  tags: molecule-idempotence-notest
-
-- name: update dnf cache
-  ansible.builtin.dnf:
-    update_cache: yes
-  when: ansible_pkg_mgr == "dnf"
-
-- name: update zypper cache
-  community.general.zypper:
-    name: zypper
-    update_cache: yes
-  when: ansible_pkg_mgr == "zypper"
-
-- name: update pacman cache
-  community.general.pacman:
-    update_cache: yes
-  when: ansible_pkg_mgr == "pacman"
