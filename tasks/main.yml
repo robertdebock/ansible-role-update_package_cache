@@ -5,4 +5,4 @@
   ansible.builtin.package:
     update_cache: true
   when:
-    - ansible_os_family no in [ "Alpine", "Suse" ]
+    - ansible_os_family not in [ "Alpine", "Suse" ]
