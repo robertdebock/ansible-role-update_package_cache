@@ -4,3 +4,5 @@
 - name: Update package cache
   ansible.builtin.package:
     update_cache: true
+  when:
+    - ansible_os_family no in [ "Alpine", "Suse" ]
