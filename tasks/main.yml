@@ -1,6 +1,6 @@
 ---
 # tasks file for update_package_cache
 
-- name: update package cache
+- name: Update package cache
   ansible.builtin.package:
     update_cache: true
