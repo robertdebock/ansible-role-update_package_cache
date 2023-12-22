@@ -1,5 +1,7 @@
 # [Ansible role update_package_cache](#update_package_cache)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Update cache for yum and apt package managers.
 
 |GitHub|GitLab|Downloads|Version|
